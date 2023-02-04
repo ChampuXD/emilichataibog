@@ -29,16 +29,16 @@ START_IMG7 = os.environ.get("START_IMG7", None)
 START_IMG8 = os.environ.get("START_IMG8", None)
 START_IMG9 = os.environ.get("START_IMG9", None)
 START_IMG10 = os.environ.get("START_IMG10", None)
-STICKER = os.environ.get("STICKER")
-STICKER1 = os.environ.get("STICKER1", None)
-STICKER2 = os.environ.get("STICKER2", None)
-STICKER3 = os.environ.get("STICKER3", None)
-STICKER4 = os.environ.get("STICKER4", None)
-STICKER5 = os.environ.get("STICKER5", None)
-STICKER6 = os.environ.get("STICKER6", None)
-STICKER7 = os.environ.get("STICKER7", None)
-STICKER8 = os.environ.get("STICKER8", None)
-STICKER9 = os.environ.get("STICKER9", None)
+STKR = os.environ.get("STKR")
+STKR1 = os.environ.get("STKR1", None)
+STKR2 = os.environ.get("STKR2", None)
+STKR3 = os.environ.get("STKR3", None)
+STKR4 = os.environ.get("STKR4", None)
+STKR5 = os.environ.get("STKR5", None)
+STKR6 = os.environ.get("STKR6", None)
+STKR7 = os.environ.get("STKR7", None)
+STKR8 = os.environ.get("STKR8", None)
+STKR9 = os.environ.get("STKR9", None)
 
 bot = Client(
     "Champu" ,
@@ -83,17 +83,17 @@ EMOJIOS = [
       "🕊",
 ]
       
-STICKER = [
-      STICKER,
-      STICKER1,
-      STICKER2,
-      STICKER3,
-      STICKER4,
-      STICKER5,
-      STICKER6,
-      STICKER7,
-      STICKER8,
-      STICKER9,
+STKR = [
+      STKR,
+      STKR1,
+      STKR2,
+      STKR3,
+      STKR4,
+      STKR5,
+      STKR6,
+      STKR7,
+      STKR8,
+      STKR9,
 ]
 START = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
