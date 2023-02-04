@@ -1,5 +1,3 @@
-#Never remove This Line From Here. @PiyushMalviyaOfficially | @JoinIndianNavy_007
-#Github :- TeamPiyushRepos | EmiliaChatAi
 from pyrogram import Client, filters
 from pyrogram.types import *
 from pymongo import MongoClient
@@ -31,19 +29,19 @@ START_IMG7 = os.environ.get("START_IMG7", None)
 START_IMG8 = os.environ.get("START_IMG8", None)
 START_IMG9 = os.environ.get("START_IMG9", None)
 START_IMG10 = os.environ.get("START_IMG10", None)
-STKR = os.environ.get("STKR")
-STKR1 = os.environ.get("STKR1", None)
-STKR2 = os.environ.get("STKR2", None)
-STKR3 = os.environ.get("STKR3", None)
-STKR4 = os.environ.get("STKR4", None)
-STKR5 = os.environ.get("STKR5", None)
-STKR6 = os.environ.get("STKR6", None)
-STKR7 = os.environ.get("STKR7", None)
-STKR8 = os.environ.get("STKR8", None)
-STKR9 = os.environ.get("STKR9", None)
+STICKER = os.environ.get("STICKER")
+STICKER1 = os.environ.get("STICKER1", None)
+STICKER2 = os.environ.get("STICKER2", None)
+STICKER3 = os.environ.get("STICKER3", None)
+STICKER4 = os.environ.get("STICKER4", None)
+STICKER5 = os.environ.get("STICKER5", None)
+STICKER6 = os.environ.get("STICKER6", None)
+STICKER7 = os.environ.get("STICKER7", None)
+STICKER8 = os.environ.get("STICKER8", None)
+STICKER9 = os.environ.get("STICKER9", None)
 
 bot = Client(
-    "Emilia" ,
+    "Champu" ,
     api_id = API_ID,
     api_hash = API_HASH ,
     bot_token = BOT_TOKEN
@@ -86,27 +84,27 @@ EMOJIOS = [
 ]
       
 STICKER = [
-      STKR,
-      STKR1,
-      STKR2,
-      STKR3,
-      STKR4,
-      STKR5,
-      STKR6,
-      STKR7,
-      STKR8,
-      STKR9,
+      STICKER,
+      STICKER1,
+      STICKER2,
+      STICKER3,
+      STICKER4,
+      STICKER5,
+      STICKER6,
+      STICKER7,
+      STICKER8,
+      STICKER9,
 ]
 START = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
-**➻ ʜᴏɪ ᴍᴇʀᴀ ɴᴀᴀᴍ ʜᴀɪ ᴇᴍɪʟɪᴀ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ**
+**➻ ʜᴏɪ ᴍᴇʀᴀ ɴᴀᴀᴍ ʜᴀɪ ᴄʜᴧᴍᴘᴜ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ**
 **➻ ᴀᴀᴘꜱᴇ ᴍɪʟᴋᴀʀ ᴀᴄʜᴀ ʟɢᴀᴀ , ᴋʏᴀ ᴀᴀᴘ ᴍᴜᴊʜꜱᴇ ʙᴀᴀᴛ ᴋʀᴏɢᴇ?**
 **➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ**
 **──────────────**
 **➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**
 <b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ.||</b>
 """
-PIYUSH = [
+CHAMPU = [
     [
         InlineKeyboardButton(text=" ᴏᴡɴᴇʀ ", url=f"tg://settings"),
         InlineKeyboardButton(text=" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"),
@@ -202,7 +200,7 @@ ABOUT_BTN = [
            InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/TeamPiyushRepos/EmiliaChatAi)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/TheChampu/TheChampu)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
 
 ABOUT_READ = f"""
 **➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
@@ -234,18 +232,18 @@ async def restart(client, m: Message):
         await m.reply_photo(
             photo = random.choice(PHOTO),
             caption=f"""**๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}](t.me/{BOT_USERNAME})**\n**➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**\n**──────────────**\n**➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]**\n<b>||๏ ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ғᴏʀ ʜᴇʟᴘ||</b>""",
-            reply_markup=InlineKeyboardMarkup(PIYUSH),
+            reply_markup=InlineKeyboardMarkup(CHAMPU),
         )
     else:
         await m.reply_text(
                       text = START,
-                      reply_markup = InlineKeyboardMarkup(PIYUSH),
+                      reply_markup = InlineKeyboardMarkup(CHAMPU),
    )
 
 @bot.on_callback_query()
 async def cb_handler(Client, query: CallbackQuery):
-    emiliadb = MongoClient(MONGO_URL)
-    emilia = emiliadb["EmiliaDb"]["Emilia"]
+    champudb = MongoClient(MONGO_URL)
+    champu = champudb["ChampuDb"]["Champu"]
     if query.data == "HELP":
         await query.message.edit_text(
                       text = HELP_READ,
@@ -255,7 +253,7 @@ async def cb_handler(Client, query: CallbackQuery):
     elif query.data == "BACK":
             await query.message.edit(
                   text = START,
-                  reply_markup=InlineKeyboardMarkup(PIYUSH),
+                  reply_markup=InlineKeyboardMarkup(CHAMPU),
      )
     elif query.data == "SOURCE":
             await query.message.edit(
@@ -302,11 +300,11 @@ async def cb_handler(Client, query: CallbackQuery):
                 show_alert=True,
             )
         else:
-            is_emilia = emilia.find_one({"chat_id": query.message.chat.id})
-            if not is_emilia:           
+            is_champu = champu.find_one({"chat_id": query.message.chat.id})
+            if not is_champu:           
                 await query.edit_message_text(f"**ᴄʜᴀᴛ-ʙᴏᴛ ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ.**")
-            if is_emilia:
-                emilia.delete_one({"chat_id": query.message.chat.id})
+            if is_champu:
+                champu.delete_one({"chat_id": query.message.chat.id})
                 await query.edit_message_text(f"**ᴄʜᴀᴛ-ʙᴏᴛ ᴇɴᴀʙʟᴇᴅ ʙʏ** {query.from_user.mention}.")
     elif query.data == "rmchat":
         if query.from_user.id not in (await is_admins(query.message.chat.id)):
@@ -315,11 +313,11 @@ async def cb_handler(Client, query: CallbackQuery):
                 show_alert=True,
             )
         else:
-            is_emilia = emilia.find_one({"chat_id": query.message.chat.id})
-            if not is_emilia:
-                emilia.insert_one({"chat_id": query.message.chat.id})
+            is_champu = champu.find_one({"chat_id": query.message.chat.id})
+            if not is_champu:
+                champu.insert_one({"chat_id": query.message.chat.id})
                 await query.edit_message_text(f"**ᴄʜᴀᴛ-ʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ** {query.from_user.mention}.")
-            if is_emilia:
+            if is_champu:
                 await query.edit_message_text("**ᴄʜᴀᴛ-ʙᴏᴛ ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ.**")
                             
 @bot.on_message(filters.command("repo"))
@@ -351,7 +349,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=random.choice(PHOTO),
-                             caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)||</b>",
+                             caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [ᴄʜᴧᴍᴘᴜ](https://t.me/Champu_Links)||</b>",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -384,16 +382,16 @@ async def chatonoff(client: Client, message: Message):
     & ~filters.private
     & ~filters.bot,
 )
-async def emiliaai(client: Client, message: Message):
+async def champuai(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"]   
 
    if not message.reply_to_message:
-       emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
-       is_emilia = emilia.find_one({"chat_id": message.chat.id})
-       if not is_emilia:
+       champudb = MongoClient(MONGO_URL)
+       champu = champudb["ChampuDb"]["Champu"] 
+       is_champu = champu.find_one({"chat_id": message.chat.id})
+       if not is_champu:
            await bot.send_chat_action(message.chat.id, "typing")
            K = []  
            is_chat = chatai.find({"word": message.text})  
@@ -410,13 +408,13 @@ async def emiliaai(client: Client, message: Message):
                    await message.reply_text(f"{hey}")
    
    if message.reply_to_message:  
-       emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
-       is_emilia = emilia.find_one({"chat_id": message.chat.id})   
+       champudb = MongoClient(MONGO_URL)
+       champu = champudb["ChampuDb"]["Champu"] 
+       is_champu = champu.find_one({"chat_id": message.chat.id})   
        getme = await bot.get_me()
        bot_id = getme.id                             
        if message.reply_to_message.from_user.id == bot_id: 
-           if not is_emilia:                   
+           if not is_champu:                   
                await bot.send_chat_action(message.chat.id, "typing")
                K = []  
                is_chat = chatai.find({"word": message.text})
@@ -450,16 +448,16 @@ async def emiliaai(client: Client, message: Message):
     & ~filters.private
     & ~filters.bot,
 )
-async def emiliastickerai(client: Client, message: Message):
+async def champustickerai(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"]   
 
    if not message.reply_to_message:
-       emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
-       is_emilia = emilia.find_one({"chat_id": message.chat.id})
-       if not is_emilia:
+       champudb = MongoClient(MONGO_URL)
+       champu = champudb["ChampuDb"]["Champu"] 
+       is_champu = champu.find_one({"chat_id": message.chat.id})
+       if not is_champu:
            await bot.send_chat_action(message.chat.id, "typing")
            K = []  
            is_chat = chatai.find({"word": message.sticker.file_unique_id})      
@@ -476,9 +474,9 @@ async def emiliastickerai(client: Client, message: Message):
                    await message.reply_sticker(f"{hey}")
    
    if message.reply_to_message:
-       emiliadb = MongoClient(MONGO_URL)
-       emilia = emiliadb["EmiliaDb"]["Emilia"] 
-       is_emilia = emilia.find_one({"chat_id": message.chat.id})
+       champudb = MongoClient(MONGO_URL)
+       champu = champudb["ChampuDb"]["Champu"] 
+       is_champu = champu.find_one({"chat_id": message.chat.id})
        getme = await bot.get_me()
        bot_id = getme.id
        if message.reply_to_message.from_user.id == bot_id: 
@@ -517,7 +515,7 @@ async def emiliastickerai(client: Client, message: Message):
     & filters.private
     & ~filters.bot,
 )
-async def emiliaprivate(client: Client, message: Message):
+async def champuprivate(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"]
@@ -560,7 +558,7 @@ async def emiliaprivate(client: Client, message: Message):
     & filters.private
     & ~filters.bot,
 )
-async def emiliaprivatesticker(client: Client, message: Message):
+async def champuprivatesticker(client: Client, message: Message):
 
    chatdb = MongoClient(MONGO_URL)
    chatai = chatdb["Word"]["WordDb"] 
@@ -594,5 +592,5 @@ async def emiliaprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ᴀʙʙ ɴɪᴋʟᴏ ᴊᴀʟᴅɪ ꜱᴇ ᴀɴᴅ ɢᴏ ᴛᴏ @PiyushXManagementSupport!!")      
+print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ᴀʙʙ ɴɪᴋʟᴏ ᴊᴀʟᴅɪ ꜱᴇ ᴀɴᴅ ɢᴏ ᴛᴏ @Champu_Links!!")      
 bot.run()
