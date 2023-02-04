@@ -225,7 +225,7 @@ async def restart(client, m: Message):
         await asyncio.sleep(0.6)
         await accha.delete()
         umm = await m.reply_sticker(
-            sticker = random.choice(STICKER),
+            sticker = random.choice(STKR),
         )
         await asyncio.sleep(2)
         await umm.delete()
