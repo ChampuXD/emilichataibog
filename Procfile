@@ -1,1 +1,1 @@
-Emilia: python3 main.py
+Cruella: python3 main.py
