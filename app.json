@@ -1,5 +1,5 @@
 {
-    "name": "Emilia Chat AI",    
+    "name": "Champu Chat AI",    
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
