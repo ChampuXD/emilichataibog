@@ -116,7 +116,7 @@ CHAMPU = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs ", /help),
+        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
     ],
     [
         InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", callback_data="SOURCE"),
@@ -150,7 +150,7 @@ BACK = [
 ]
 HELP_BTN = [
      [
-          InlineKeyboardButton(text=" ᴄʜᴀᴛʙᴏᴛ ", callback_data="CHATBOT_CMD"),
+          InlineKeyboardButton(text=" ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ", callback_data="CHATBOT_CMD"),
      ],
      [
           InlineKeyboardButton(text=" ᴛᴏᴏʟs ", callback_data="TOOLS_DATA"),
@@ -174,9 +174,8 @@ TOOLS_DATA_READ = f"""
 """
 
 CHATBOT_READ = f"""
-<u>**ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {BOT_NAME}**</u>
-**➻ ᴜsᴇ `/chatbot` ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴄʜᴀᴛʙᴏᴛ.**
-**๏ ɴᴏᴛᴇ ➻ ᴛʜᴇ ᴀʙᴏᴠᴇ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ᴄʜᴀᴛʙᴏᴛ ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!!**
+<u>**ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ {BOT_NAME}**</u>
+**➻ ᴜsᴇ /help ᴛᴏ sᴇᴇ ᴍᴀɴᴀɢᴍᴇɴᴛ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs!!**
 **───────────────**
 <b>||©️ @{OWNER_USERNAME}||</b>
 """
