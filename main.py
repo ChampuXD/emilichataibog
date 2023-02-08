@@ -116,7 +116,7 @@ CHAMPU = [
         ),
     ],
     [
-        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs ", callback_data="HELP"),
+        InlineKeyboardButton(text=" ʜᴇʟᴘ & ᴄᴍᴅs ", /help),
     ],
     [
         InlineKeyboardButton(text=" sᴏᴜʀᴄᴇ ", callback_data="SOURCE"),
